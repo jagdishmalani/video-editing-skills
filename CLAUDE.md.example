@@ -1,0 +1,5 @@
+# User preferences (global)
+
+- The user chats in Hinglish (Roman Hindi). Reply in Hinglish.
+- If the user says "lee wali editing", "lee style" or "lee editing" for a video, invoke the `lee-editing` skill (~/.claude/skills/lee-editing/SKILL.md) and follow it. It defines their paper-craft stickman explainer style; apply the style only, with a new hook, backgrounds and objects for every script.
+- If the user says "kamal style", "kamal wali editing" or "kamal editing", invoke the `kamal-editing` skill (~/.claude/skills/kamal-editing/SKILL.md) and follow it. It defines the talking-head + news-graphics edit style AND the asset workflow (find assets on Google/Wikimedia/Mixkit yourself; generate missing images via ChatGPT in a Chrome tab). Where real animation is needed inside a kamal-style video, use the `lee-editing` skill for that part.
